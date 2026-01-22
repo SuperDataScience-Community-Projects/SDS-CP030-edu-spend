@@ -8,7 +8,9 @@
 
 ## 🎯 PROJECT OVERVIEW
 
-EduSpend is an ML-powered budget planner to estimate the **Total Cost of Attendance (TCA)** and classify the **Affordability Tier** (Low/Medium/High) for students planning to study abroad. This project uses trained machine learning models and a dynamic Streamlit interface to generate real-time, user-driven predictions.
+EduSpend is an applied, risk-aware machine learning project that provides decision support for prospective students by modeling and quantifying uncertainty in university-related expenses. The system estimates Total Cost of Attendance (TCA) and affordability tiers across universities and cities, supporting informed financial planning where cost misestimation carries real-world risk.
+
+The project combines supervised learning, metric-driven model selection, and deployment-ready pipelines to deliver both cost estimation and affordability classification through a Streamlit-based interface.
 
 ---
 
@@ -44,6 +46,8 @@ EduSpend/
 ---
 
 ## 🧪 MACHINE LEARNING PIPELINE
+
+The pipeline was designed to balance predictive performance with misestimation risk, emphasizing metric selection, model robustness, and reproducibility.
 
 ### 1. **Phase 1: EDA & Preprocessing**
 - Cleaned international education cost data
